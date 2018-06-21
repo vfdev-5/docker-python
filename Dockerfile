@@ -508,6 +508,7 @@ RUN pip install flashtext && \
     pip install conx && \
     pip install pandasql && \
     pip install trackml && \
+    pip install pytorch-ignite && \
     ##### ^^^^ Add new contributions above here ^^^^ #####
     # clean up pip cache
     rm -rf /root/.cache/pip/*
